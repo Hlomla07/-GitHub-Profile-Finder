@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Profile Finder | Hlomla Mvinjelwa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>GitHub Profile Finder</h1>
+        <p class="subtitle">Search for any GitHub user</p>
+
+        <form id="search-form">
+            <input type="text" id="username-input" placeholder="Enter GitHub username..." autocomplete="off" required>
+            <button type="submit">Search</button>
+        </form>
+
+        <!-- Loading Spinner -->
+        <div id="loading" class="loading hidden">
+            <div class="spinner"></div>
+            <p>Searching...</p>
+        </div>
+
+        <!-- Error Message -->
+        <div id="error" class="error hidden"></div>
+
+        <!-- Profile Card -->
+        <div id="profile" class="profile hidden"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
