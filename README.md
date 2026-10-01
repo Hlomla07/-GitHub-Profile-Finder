@@ -2,7 +2,8 @@
 # GitHub Profile Finder 
 
 **Author:** Hlomla Mvinjelwa  
-**Email:** hlomlamvinjelwa007@gmail.com  
+**Email:** hlomlamvinjelwa007@gmail.com
+**Live Demo:** https://stellular-maamoul-3e1b87.netlify.app/
 
 ## Description
 This is an API-based web application that allows users to search for any GitHub profile and view detailed information.  
